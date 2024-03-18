@@ -1,0 +1,20 @@
+.nav-l {
+    display: flex;
+    gap: 1.5rem;
+    text-decoration: none;
+    background-color: #3abcf0;
+    padding: 10px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+a:active {
+    color: black;
+}

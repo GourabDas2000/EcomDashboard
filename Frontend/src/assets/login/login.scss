@@ -1,0 +1,28 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 1rem;
+    margin: auto;
+}
+
+.inputfield {
+    width: 80%;
+    border: 1px solid rgb(20, 186, 237);
+    outline: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: centere;
+    align-items: center;
+}
+
+.loginbutton {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
