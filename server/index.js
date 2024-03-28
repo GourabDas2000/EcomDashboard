@@ -78,7 +78,7 @@ app.post('/addproduct', verifytoken, async(req, res) => {
     res.send(data);
 });
 
-app.get('/product', verifytoken, async(req, res) => {
+app.get('/product', async(req, res) => {
     var result = await Product.find();
     if (result.length > 0) {
         res.send(result);
